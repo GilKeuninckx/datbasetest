@@ -2,7 +2,7 @@
 echo gethostname();
 echo "<br>";
 $password = "pxlpxlpxl";
-$servername = "testdbtf.cowtdketd1dd.us-east-1.rds.amazonaws.com";
+$servername = "nfusetestdb.ci4avjuolz06.eu-west-3.rds.amazonaws.com";
 $username = "pxl";
 $dbname = "data";
 
