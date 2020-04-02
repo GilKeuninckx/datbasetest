@@ -11,7 +11,7 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = "SELECT emp_no, first_name, last_name FROM employees WHERE emp_no <= 10050";
+$sql = "SELECT * from data;";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
@@ -21,6 +21,5 @@ if ($result->num_rows > 0) {
 } else {
     echo "0 results";
 }
-echo "<img src='https://s3-us-west-1.amazonaws.com/project-cloud-snb-8.1/ikbeneenfoto.jpg'>";
 $conn->close();
 ?>
