@@ -16,7 +16,7 @@ $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
     while($row = $result->fetch_assoc()) {
-        echo "Employee number: " . $row["emp_no"]. " - Name: " . $row["first_name"]. " " . $row["last_name"]. "<br>";
+        echo "id: " . $row["id"]. " - datetime: " . $row["datetime"]. " " . $row["value"]. "<br>";
     }
 } else {
     echo "0 results";
