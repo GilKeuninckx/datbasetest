@@ -4,7 +4,7 @@ echo "<br>";
 $password = "pxlpxlpxl";
 $servername = "nfusetestdb.ci4avjuolz06.eu-west-3.rds.amazonaws.com";
 $username = "pxl";
-$dbname = "data";
+$dbname = "Terraformdb";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {
