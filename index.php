@@ -1,5 +1,6 @@
 <?php
 echo gethostname();
+echo "Getting data from database"
 echo "<br>";
 $password = "pxlpxlpxl";
 $servername = "nfusetestdb.ci4avjuolz06.eu-west-3.rds.amazonaws.com";
